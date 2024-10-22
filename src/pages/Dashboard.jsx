@@ -1,12 +1,21 @@
 import React from 'react'
 import Navbar from './components/Navbar'
+import Card from './components/Card'
 
 const Dashboard = () => {
     return (
         <>
             <Navbar></Navbar>
-            <div className='bg-[#EFEFEF]'>
-                hola
+            <div className='bg-[#EFEFEF] h-fit pb-10 grid justify-items-center grid-cols-3 pt-10'>
+                <Card></Card>
+                <Card></Card>
+                <Card></Card>
+                <Card></Card>
+                <Card></Card>
+                <Card></Card>
+                <Card></Card>
+                <Card></Card>
+
             </div>
         </>
     )
