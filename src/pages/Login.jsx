@@ -4,7 +4,7 @@ function Login() {
   const navigate = useNavigate();
 
   const handleRegister = () => {
-    navigate('/Register');
+    navigate('/');
   };
 
   const handleDashboard = () => {
@@ -30,14 +30,14 @@ function Login() {
 
         <div className="relative">
           <img
-            src="src/assets/login-img.png"
+            src="src/pages/assets/login-img.png"
             className="w-full h-screen object-cover"
             alt=""
           />
 
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-black bg-opacity-80 p-10 w-[470px] rounded-xl shadow-lg text-center text-white">
             <div className='flex justify-center mt-2'>
-              <img src="src/assets/ISSTECH-logo.png" alt="" className='mb-6 h-[70px]' />
+              <img src="src/pages/assets/ISSTECH-logo.png" alt="" className='mb-6 h-[70px]' />
             </div>
             <p className="text-4xl font-medium mb-6">BIENVENIDO</p>
             <p className='text-lg font-light mb-8'>Ingresa tu información para poder acceder a tu cuenta correctamente</p>
