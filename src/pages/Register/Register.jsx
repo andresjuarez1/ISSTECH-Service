@@ -13,14 +13,14 @@ function Login() {
       <div className="lg:grid grid-cols-2 font-poppins">
         <div className="h-screen flex flex-col justify-center items-center">
           <div className="lg:hidden flex justify-center mt-4">
-            <img src="/ISSTECH-logo-black.png" alt="" className="h-[70px]" />
+            <img src="/ISSTECH-logo-black.png" alt="" className="mt-[60%] h-[50px]" />
           </div>
 
           <p className="font-semibold text-3xl mt-5 lg:mt-0 lg:text-5xl">
             CREA TU CUENTA
           </p>
 
-          <p className="w-[90%] text-sm font-light pt-3 lg:w-[40%] lg:text-base text-center">
+          <p className="w-[50%] text-xs font-light pt-3 lg:w-[40%] lg:text-base text-center">
             Rellena los campos con la información correspondiente
           </p>
 

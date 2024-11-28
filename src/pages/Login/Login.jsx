@@ -24,7 +24,7 @@ function Login() {
               INICIA SESIÓN
             </p>
 
-            <p className="text-sm lg:text-base font-light pt-3 w-[75%] text-center">
+            <p className="text-xs lg:text-base font-light pt-3 w-[60%] lg:w-[75%] text-center">
               Rellena los campos con la información correspondiente
             </p>
           </div>
