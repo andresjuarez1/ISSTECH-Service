@@ -35,14 +35,19 @@ const Navbar = () => {
         </div>
 
         <div className="gap-10 mt-3 lg:mr-10 flex text-center">
-          <li className="w-[80px]">
-            <button>Recibido</button>
+          <li className="relative w-[80px] group">
+            <button className="hover:font-semibold">Recibido</button>
+            <div className="absolute left-1/2 transform -translate-x-1/2 top-full h-2 w-2 bg-black rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
           </li>
-          <li className="w-[80px]">
-            <button>Enviados</button>
+          <li className="relative w-[80px] group">
+            <button className="hover:font-semibold">Enviados</button>
+            <div className="absolute left-1/2 transform -translate-x-1/2 top-full h-2 w-2 bg-black rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
           </li>
-          <li className="w-[80px]">
-            <button onClick={handleLog}>Mi perfil</button>
+          <li className="relative w-[80px] group">
+            <button className="hover:font-semibold" onClick={handleLog}>
+              Salir
+            </button>
+            <div className="absolute left-1/2 transform -translate-x-1/2 top-full h-2 w-2 bg-black rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
           </li>
         </div>
       </ul>
