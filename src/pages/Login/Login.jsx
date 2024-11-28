@@ -17,7 +17,7 @@ function Login() {
         <div className="h-screen flex flex-col justify-center items-center">
           <div className="pb-5 flex flex-col justify-center items-center">
             <div className="lg:hidden flex justify-center mt-4">
-              <img src="/ISSTECH-logo-black.png" alt="" className="h-[70px]" />
+              <img src="/ISSTECH-logo-black.png" alt="" className="h-[40px]" />
             </div>
 
             <p className="font-semibold text-3xl mt-5 lg:mt-0 lg:text-5xl">
@@ -31,12 +31,12 @@ function Login() {
 
           <form className="flex flex-col pt-6 gap-5">
             <input
-              className="border-[#8d8d8d] border-2 rounded-2xl p-4 h-12 lg:h-14 w-[300px] lg:w-[500px] mb-2"
+              className="border-[#8d8d8d] text-sm lg:text-base border-[1.5px] lg:border-2 rounded-xl lg:rounded-2xl p-4 h-9 lg:h-14 w-[300px] lg:w-[500px]"
               type="email"
               placeholder="Correo"
             />
             <input
-              className="border-[#8d8d8d] border-2 rounded-2xl p-4 h-12 lg:h-14"
+              className="border-[#8d8d8d] text-sm lg:text-base border-[1.5px] lg:border-2 rounded-xl lg:rounded-2xl p-4 h-9 lg:h-14 w-[300px] lg:w-[500px]"
               type="password"
               placeholder="Contraseña"
             />

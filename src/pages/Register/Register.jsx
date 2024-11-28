@@ -13,7 +13,7 @@ function Login() {
       <div className="lg:grid grid-cols-2 font-poppins">
         <div className="h-screen flex flex-col justify-center items-center">
           <div className="lg:hidden flex justify-center mt-4">
-            <img src="/ISSTECH-logo-black.png" alt="" className="mt-[60%] h-[50px]" />
+            <img src="/ISSTECH-logo-black.png" alt="" className="h-[40px]" />
           </div>
 
           <p className="font-semibold text-3xl mt-5 lg:mt-0 lg:text-5xl">
@@ -26,37 +26,37 @@ function Login() {
 
           <form className="flex flex-col pt-4 lg:pt-6 gap-5">
             <input
-              className="border-[#8d8d8d] border-2 rounded-2xl p-4 h-12 w-[300px] lg:h-14 lg:w-[500px]"
+              className="border-[#8d8d8d] text-sm lg:text-base border-[1.5px] lg:border-2 rounded-xl lg:rounded-2xl p-4 h-10 w-[300px] lg:h-14 lg:w-[500px]"
               type="text"
               placeholder="Nombre"
             />
             <input
-              className="border-[#8d8d8d] border-2 rounded-2xl p-4 h-12 lg:h-14"
+              className="border-[#8d8d8d] text-sm lg:text-base border-[1.5px] lg:border-2 rounded-xl lg:rounded-2xl p-4 h-9 lg:h-14 w-[300px] lg:w-[500px]"
               type="text"
               placeholder="Apellido"
             />
             <input
-              className="border-[#8d8d8d] border-2 rounded-2xl p-4 h-12 lg:h-14"
+              className="border-[#8d8d8d] text-sm lg:text-base border-[1.5px] lg:border-2 rounded-xl lg:rounded-2xl p-4 h-9 lg:h-14 w-[300px] lg:w-[500px]"
               type="email"
               placeholder="Correo"
             />
             <input
-              className="border-[#8d8d8d] border-2 rounded-2xl p-4 h-12 lg:h-14"
+              className="border-[#8d8d8d] text-sm lg:text-base border-[1.5px] lg:border-2 rounded-xl lg:rounded-2xl p-4 h-9 lg:h-14 w-[300px] lg:w-[500px]"
               type="text"
               placeholder="Firma electrónica"
             />
             <input
-              className="border-[#8d8d8d] border-2 rounded-2xl p-4 h-12 lg:h-14"
+              className="border-[#8d8d8d] text-sm lg:text-base border-[1.5px] lg:border-2 rounded-xl lg:rounded-2xl p-4 h-9 lg:h-14 w-[300px] lg:w-[500px]"
               type="number"
               placeholder="Teléfono"
             />
             <input
-              className="border-[#8d8d8d] border-2 rounded-2xl p-4 h-12 lg:h-14"
+              className="border-[#8d8d8d] text-sm lg:text-base border-[1.5px] lg:border-2 rounded-xl lg:rounded-2xl p-4 h-9 lg:h-14 w-[300px] lg:w-[500px]"
               type="password"
               placeholder="Contraseña"
             />
             <input
-              className="border-[#8d8d8d] border-2 rounded-2xl p-4 h-12 lg:h-14"
+              className="border-[#8d8d8d] text-sm lg:text-base border-[1.5px] lg:border-2 rounded-xl lg:rounded-2xl p-4 h-9 lg:h-14 w-[300px] lg:w-[500px]"
               type="password"
               placeholder="Repite tu contraseña"
             />
@@ -78,7 +78,6 @@ function Login() {
               Inicia sesión
             </button>
           </p>
-
         </div>
 
         <div className="hidden lg:block lg:relative">
