@@ -47,7 +47,7 @@ function Login() {
               Inicia sesión
             </button>
           </form>
-          <p className="font-light">
+          <p className="lg:hidden font-light">
             ¿No tienes una cuenta?{" "}
             <button
               onClick={handleRegister}

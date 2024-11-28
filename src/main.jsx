@@ -3,9 +3,9 @@ import { createRoot } from 'react-dom/client'
 import React from 'react';
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Register from './pages/Register.jsx'
-import Login from './pages/Login.jsx'
-import Dashboard from './pages/Dashboard.jsx';
+import Register from './pages/Register/Register.jsx'
+import Login from './pages/Login/Login.jsx'
+import Dashboard from './pages/Dashboard/Dashboard.jsx';
 import './styles/index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(

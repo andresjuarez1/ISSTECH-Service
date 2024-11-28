@@ -6,7 +6,7 @@ const Dashboard = () => {
     return (
         <>
             <Navbar></Navbar>
-            <div className='bg-[#EFEFEF] h-fit pb-10 grid justify-items-center grid-cols-3 pt-14'>
+            <div className='bg-[#EFEFEF] h-fit pb-10 grid justify-items-center lg:grid-cols-3 pt-14'>
                 <Card></Card>
                 <Card></Card>
                 <Card></Card>
