@@ -2,18 +2,13 @@ import React, { useEffect, useState } from "react";
 import Navbar from "../../molecules/Navbar";
 import Card from "../../molecules/Card";
 
-const Dashboard = () => {
+const Received = () => {
   const [showModal, setShowModal] = useState(false);
   const [selectedCard, setSelectedCard] = useState(null);
 
   const handleCardClick = (cardData) => {
     setSelectedCard(cardData);
     setShowModal(true);
-  };
-
-  const askDocument = () => {
-    alert("Solicitando documento");
-    console.log("Solicitando documento");
   };
 
   const closeModal = () => {
@@ -52,30 +47,9 @@ const Dashboard = () => {
     },
     {
       title: "Titulo 3",
-      date: "19/10/2024",
+      date: "18/10/2024",
       description:
-        "El odio odio, fermentum nec nunc nec, ultricies ultricies nunc. Nullam nec nunc nec, ultricies ultricies nunc.",
-      image: "/card-img.png",
-    },
-    {
-      title: "Titulo 4",
-      date: "20/10/2024",
-      description:
-        "El amor odio, fermentum nec nunc nec, ultricies ultricies nunc. Nullam nec nunc nec, ultricies ultricies nunc.",
-      image: "/card-img.png",
-    },
-    {
-      title: "Titulo 4",
-      date: "20/10/2024",
-      description:
-        "El amor odio, fermentum nec nunc nec, ultricies ultricies nunc. Nullam nec nunc nec, ultricies ultricies nunc.",
-      image: "/card-img.png",
-    },
-    {
-      title: "Titulo 4",
-      date: "20/10/2024",
-      description:
-        "El amor odio, fermentum nec nunc nec, ultricies ultricies nunc. Nullam nec nunc nec, ultricies ultricies nunc.",
+        "Aliquam convallis molestie nibh, quis congue ligula gravida at. In sapien quam, iaculis tempor vehicula eget.",
       image: "/card-img.png",
     },
   ];
@@ -105,20 +79,16 @@ const Dashboard = () => {
             </button>
             <img
               src={selectedCard.image}
-              className="w-full rounded-2xl my-9 px-10"
+              className="w-full rounded-lg mb-6 mt-7"
               alt={selectedCard.title}
             />
-            <h2 className="text-3xl font-bold mb-2 text-center">{selectedCard.title}</h2>
-            <p className="text-lg font-light mb-4 text-center">{selectedCard.date}</p>
-            <p className="text-lg text-justify mx-10">{selectedCard.description}</p>
-            <div className="flex justify-center mb-4 mt-4">
-              <button
-                className="mt-5 bg-[#2c2c2c] px-8 py-4 rounded-xl hover:bg-[#1a1a1a] text-white text-base font-light"
-                onClick={askDocument}
-              >
-                Solicitar
-              </button>
-            </div>
+            <h2 className="text-3xl font-bold mb-2">{selectedCard.title}</h2>
+            <p className="text-lg font-light mb-4">{selectedCard.date}</p>
+            <p className="text-base">{selectedCard.description}</p>
+
+            <p className="text-sm font-light mt-5">
+              Documento solicitado por Alejandro Rios
+            </p>
           </div>
         </div>
       )}
@@ -126,4 +96,4 @@ const Dashboard = () => {
   );
 };
 
-export default Dashboard;
+export default Received;
