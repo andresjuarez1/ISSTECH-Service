@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "./components/Navbar";
-import Card from "./components/Card";
+import Navbar from "./molecules/Navbar";
+import Card from "./molecules/Card";
 
 const Dashboard = () => {
   const [showModal, setShowModal] = useState(false);
